@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>예시 1 삿포로 카드뉴스</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&amp;family=Nanum+Pen+Script&amp;family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#111111}a:hover{color:#555555}
+</style>
+</helmet>
+<div style="width: 1800px; height: 540px; display: flex; gap: 24px; font-family: 'Noto Sans KR', sans-serif; color: #111111">
+
+<section style="width: 432px; height: 540px; flex: none; position: relative; overflow: hidden">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle at 72% 20%, rgba(255,250,235,0.95) 0 22px, rgba(255,235,190,0.28) 23px 70px, transparent 71px), radial-gradient(rgba(255,255,255,0.9) 1.5px, transparent 2.5px) 0 0 / 24px 24px, radial-gradient(rgba(255,255,255,0.55) 1px, transparent 2px) 12px 12px / 24px 24px, linear-gradient(180deg, #121d3d 0%, #283c70 48%, #6d84bd 100%)"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 120px; background: #EEF2FA"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 320px; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.78) 100%)"></div>
+<div style="position: absolute; top: 18px; left: 18px; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.45); color: #FFFFFF; font-size: 11px">사진 자리 · 눈 내린 밤거리</div>
+<div style="position: absolute; top: 18px; right: 18px; padding: 3px 10px; border-radius: 999px; background: rgba(0,0,0,0.45); color: #FFFFFF; font-size: 12px; font-weight: 700">1/8</div>
+<div style="position: absolute; left: 28px; right: 28px; bottom: 30px; display: flex; flex-direction: column; gap: 12px">
+<span style="align-self: flex-start; padding: 5px 12px; border-radius: 999px; background: {{point}}; color: #111111; font-size: 14px; font-weight: 900">12월 한정</span>
+<h1 style="margin: 0; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: 52px; line-height: 1.12; color: #FFFFFF; white-space: pre-line; text-shadow: 0 2px 14px rgba(0,0,0,0.35)">12월 삿포로,
+왜 다들 숨겨?</h1>
+<p style="margin: 0; font-family: 'Nanum Pen Script', cursive; font-size: 30px; line-height: 1; color: {{point}}">눈축제 전에 가야 하는 이유 →</p>
+</div>
+</section>
+
+<section style="width: 432px; height: 540px; flex: none; position: relative; overflow: hidden; background: #FFF8EC; box-sizing: border-box; padding: 44px 32px 32px">
+<div style="position: absolute; top: 18px; right: 18px; padding: 3px 10px; border-radius: 999px; background: #111111; color: #FFFFFF; font-size: 12px; font-weight: 700">2/8</div>
+<h2 style="margin: 0; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: 42px; line-height: 1.2; white-space: pre-line">다들 2월
+<span style="background: linear-gradient(180deg, transparent 56%, {{point}} 56%); padding: 0 4px">눈축제</span>만 알지?</h2>
+<div style="position: absolute; left: 44px; top: 210px; width: 196px; padding: 10px 10px 34px; background: #FFFFFF; box-shadow: 0 8px 20px rgba(0,0,0,0.16); transform: rotate(-5deg)">
+<div style="height: 160px; background: radial-gradient(rgba(255,255,255,0.9) 1.4px, transparent 2.4px) 0 0 / 18px 18px, linear-gradient(160deg, #9fb7de 0%, #dfe8f6 70%, #ffffff 100%)"></div>
+<p style="margin: 8px 0 0; font-family: 'Nanum Pen Script', cursive; font-size: 20px; color: #444444">2월 눈축제 (사진 자리)</p>
+</div>
+<div style="position: absolute; right: 36px; top: 238px; width: 168px; padding: 10px 10px 34px; background: #FFFFFF; box-shadow: 0 8px 20px rgba(0,0,0,0.16); transform: rotate(4deg)">
+<div style="height: 140px; background: radial-gradient(circle at 50% 40%, #ffd88a 0 6px, transparent 7px), radial-gradient(circle at 30% 60%, #ffc76b 0 4px, transparent 5px), radial-gradient(circle at 72% 62%, #ffe2a6 0 5px, transparent 6px), linear-gradient(180deg, #1a2347 0%, #3d3a6b 100%)"></div>
+<p style="margin: 8px 0 0; font-family: 'Nanum Pen Script', cursive; font-size: 20px; color: #444444">12월 일루미네이션?</p>
+</div>
+<p style="position: absolute; left: 32px; right: 32px; bottom: 30px; margin: 0; font-size: 19px; line-height: 1.5; font-weight: 700">근데 12월엔 <span style="background: #111111; color: #FFFFFF; padding: 2px 8px">[직접 확인한 이유]</span></p>
+</section>
+
+<section style="width: 432px; height: 540px; flex: none; position: relative; overflow: hidden; background: #FFFFFF; box-sizing: border-box; padding: 36px 28px 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="position: absolute; top: 18px; right: 18px; padding: 3px 10px; border-radius: 999px; background: #111111; color: #FFFFFF; font-size: 12px; font-weight: 700">5/8</div>
+<div style="display: flex; align-items: flex-end; gap: 12px">
+<span style="font-family: 'Black Han Sans', sans-serif; font-size: 64px; line-height: 0.9; color: #111111">03</span>
+<span style="padding-bottom: 6px; font-size: 22px; font-weight: 900">[장소 이름]</span>
+</div>
+<div style="position: relative; height: 230px; border-radius: 16px; overflow: hidden; background: radial-gradient(rgba(255,255,255,0.85) 1.4px, transparent 2.4px) 0 0 / 22px 22px, linear-gradient(180deg, #24335f 0%, #50679f 60%, #c9d6ee 100%)">
+<span style="position: absolute; top: 12px; left: 12px; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.45); color: #FFFFFF; font-size: 11px">사진 자리</span>
+<span style="position: absolute; right: 14px; bottom: 12px; font-family: 'Nanum Pen Script', cursive; font-size: 26px; color: #FFFFFF">여기 진짜 예쁨</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 7px 12px; border-radius: 999px; background: {{point}}; font-size: 15px; font-weight: 700">추천 시간 · [내가 간 시간]</span>
+<span style="padding: 7px 12px; border-radius: 999px; background: #F1F1F1; font-size: 15px; font-weight: 700">꿀팁 · [직접 해본 것]</span>
+</div>
+<p style="margin: 0; font-size: 13px; color: #555555">운영시간은 방문 전 공식 사이트에서 확인</p>
+</section>
+
+<section style="width: 432px; height: 540px; flex: none; position: relative; overflow: hidden; background: {{point}}; box-sizing: border-box; padding: 44px 32px; display: flex; flex-direction: column; justify-content: center; gap: 22px">
+<div style="position: absolute; top: 18px; right: 18px; padding: 3px 10px; border-radius: 999px; background: #111111; color: #FFFFFF; font-size: 12px; font-weight: 700">8/8</div>
+<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg>
+<h2 style="margin: 0; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: 44px; line-height: 1.18; white-space: pre-line">저장 안 하면
+12월에 후회함</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.5; font-weight: 500; white-space: pre-line">동선·경비 전부 정리한 글은
+프로필 링크 블로그에</p>
+<p style="margin: 0; font-family: 'Nanum Pen Script', cursive; font-size: 28px">[@내 계정] 팔로우하면 다음 편도 ↓</p>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"point":{"editor":"color","default":"#FFE14D","options":["#FFE14D","#FF8A3D","#7CE0C3","#FF9EC4"]},"$preview":{"width":1800,"height":540}}'>
+class Component extends DCLogic {
+renderVals() {
+return { point: this.props.point ?? '#FFE14D' };
+}
+}
+</script>
+</body>
+</html>
